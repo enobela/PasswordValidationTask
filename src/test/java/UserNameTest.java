@@ -23,7 +23,7 @@ public class UserNameTest {
     @Test
    public void PassUserTest()
    {
-       assertEquals("@Enobela",obj_val.LoginVerifyPassword("@Enobela"));
+       assertEquals("@Enobela",obj_val.LoginVerifyPassword("#Enobela"));
    }
     
    
