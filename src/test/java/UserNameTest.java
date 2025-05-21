@@ -19,10 +19,12 @@ public class UserNameTest {
    {
        assertEquals("Enobela",obj_val.LoginVerifyUsername("Enobela"));
    }
+    // Test the code
     @Test
    public void PassUserTest()
    {
        assertEquals("@Enobela",obj_val.LoginVerifyPassword("@Enobela"));
    }
+    
    
 }
